@@ -80,7 +80,7 @@ if (countdownDiv && birthdayDiv) {
   birthdayDiv.style.display = "none";
 
   const interval = setInterval(() => {
-    const targetDate = new Date("2025-05-27T23:00:00+05:30");
+    const targetDate = new Date("2025-05-28T00:00:00+05:30");
     const now = new Date();
     const timeDifference = targetDate - now;
 
